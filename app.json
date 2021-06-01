@@ -1,9 +1,9 @@
 {
   "name": "Music Bot",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
-  "logo": "https://telegra.ph/file/41871555394988009d3ca.jpg",
+  "logo": "https://github.com/justteen/AUV-BUZZ-MUSIC/blob/main/Logopit_1622512627915.jpg",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/W2HGalaxy-Op/W2HMusic",
+  "repository": "https://github.com/justteen/AUV-BUZZ-MUSIC",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
