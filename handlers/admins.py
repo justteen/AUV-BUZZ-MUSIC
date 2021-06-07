@@ -36,7 +36,7 @@ async def pause(_, message: Message):
     ) or (
             callsmusic.pytgcalls.active_calls[message.chat.id] == 'paused'
     ):
-        await message.reply_text("✯AUV-BUZZ MUSIC✯=❗ Nothing is playing!")
+        await message.reply_text("✯AUV-BUZZ MUSIC✯=❗ tidak ada yang diputar")
     else:
         callsmusic.pytgcalls.pause_stream(message.chat.id)
         await message.reply_text("✯AUV-BUZZ MUSIC✯=▶️ Paused!")
@@ -62,7 +62,7 @@ async def resume(_, message: Message):
 @authorized_users_only
 async def stop(_, message: Message):
     if message.chat.id not in callsmusic.pytgcalls.active_calls:
-        await message.reply_text("✯AUV-BUZZ MUSIC✯=❗ Nothing is streaming!")
+        await message.reply_text("✯AUV-BUZZ MUSIC✯=❗ tidak ada tugas pemutaran!")
     else:
         try:
             callsmusic.queues.clear(message.chat.id)
@@ -70,7 +70,7 @@ async def stop(_, message: Message):
             pass
 
         callsmusic.pytgcalls.leave_group_call(message.chat.id)
-        await message.reply_text("✯AUV-BUZZ MUSIC✯=❌ Stopped streaming!")
+        await message.reply_text("✯AUV-BUZZ MUSIC✯=❌ Stop Pemutaran!")
 
 
 @Client.on_message(command("skip") & other_filters)
