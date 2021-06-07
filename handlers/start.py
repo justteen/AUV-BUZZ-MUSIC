@@ -34,7 +34,7 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "Tambahkan Asiten⚡️", url="http://t.me/@asistenmusik2?startgroup=True"
+                        "Tambahkan Asiten⚡️", url="http://t.me/asistenmusik2?startgroup=True"
                     )
                 ]
             ]
