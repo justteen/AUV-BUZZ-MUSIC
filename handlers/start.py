@@ -9,7 +9,7 @@ from config import BOT_NAME as bn
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""**HELLO!, Saya  {bn}, Adalah bot untuk memutar musik dalam obrolan suara gruop chat anda.\n\n Jangan lupa untuk menambahkan asisten musik juga, agar dapat memutar musiknya.\n\n /help untuk mengetahui perintah**""",
+        f"""**HELLO!, Saya  {bn}, Adalah bot untuk memutar musik dalam obrolan suara group chat anda.\n\n Jangan lupa untuk menambahkan asisten musik juga, agar dapat memutar musiknya.\n\n /help untuk mengetahui perintah**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
