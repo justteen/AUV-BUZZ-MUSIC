@@ -419,15 +419,15 @@ async def play(_, message: Message):
                               invitelink = await _.export_chat_invite_link(chid)
                           except:
                               await lel.edit(
-                                  "<b>Add me as admin of yor group with whole permission except Send Anonymously option first and must check /help</b>",
+                                  "<b>tambahkan saya menjadi admin. jika anda pertama kali menggunakan bot ini maka harus cek /help</b>",
                               )
                               return
 
                           try:
                               await USER.join_chat(invitelink)
-                              await USER.send_message(message.chat.id,"I joined this group for playing music in VC")
+                              await USER.send_message(message.chat.id,"Saya Bergabung ke Group untuk memutar musik didalam VCG")
                               await lel.edit(
-                                  "<b>helper userbot joined your chat</b>",
+                                  "<b>bantu userbot untuk join group</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -435,8 +435,8 @@ async def play(_, message: Message):
                           except Exception as e:
                               #print(e)
                               await lel.edit(
-                                  f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @auvbuzzbot to your Group and try again</b>",
+                                  f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} User {user.first_name} Asisten musik tidak dapat masuk ke grup! Pastikan Asisten musik tidak dalam blokir grup."
+                                  "\n\nAtau manual tambahkan @auvbuzzbot ke grup & coba kembali</b>",
                               )
                               pass
     try:
@@ -491,7 +491,7 @@ async def play(_, message: Message):
                 [
                    InlineKeyboardButton(
                        text="⭐ Support ⭐",
-                       url='https://t.me/ossuport3')
+                       url='https://t.me/Kabaridevbot_bot')
                 ],
                 [       
                     InlineKeyboardButton(
@@ -566,15 +566,15 @@ async def deezer(client: Client, message_: Message):
                               invitelink = await client.export_chat_invite_link(chid)
                           except:
                               await lel.edit(
-                                  "<b>Add me as admin of yor group with whole permission except Send Anonymously option first and must check /help</b>",
+                                  "<b>tambahkan saya menjadi admin. jika anda pertama kali menggunakan bot ini maka harus cek /help</b>",
                               )
                               return
 
                           try:
                               await USER.join_chat(invitelink)
-                              await USER.send_message(message_.chat.id,"I joined this group for playing music in VC")
+                              await USER.send_message(message_.chat.id,"Saya Bergabung ke Group untuk memutar musik didalam VCG")
                               await lel.edit(
-                                  "<b>helper userbot joined your chat</b>",
+                                  "<b>bantu userbot untuk join group</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -582,8 +582,8 @@ async def deezer(client: Client, message_: Message):
                           except Exception as e:
                               #print(e)
                               await lel.edit(
-                                  f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @auvbuzzbot to your Group and try again</b>",
+                                  f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} User {user.first_name} Asisten musik tidak dapat masuk ke grup! Pastikan Asisten musik tidak dalam blokir grup."
+                                  "\n\nAtau manual tambahkan @auvbuzzbot ke grup & coba kembali</b>",
                               )
                               pass
     try:
@@ -623,7 +623,7 @@ async def deezer(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="⭐ Support ⭐",
-                   url='https://t.me/ossuport3')
+                   url='https://t.me/Kabaridevbot_bot')
              ],
              [       
                  InlineKeyboardButton(
@@ -695,15 +695,15 @@ async def jiosaavn(client: Client, message_: Message):
                               invitelink = await client.export_chat_invite_link(chid)
                           except:
                               await lel.edit(
-                                  "<b>Add me as admin of yor group with whole permission except Send Anonymously option first and must check /help</b>",
+                                  "<b>tambahkan saya menjadi admin. jika anda pertama kali menggunakan bot ini maka harus cek /help</b>",
                               )
                               return
 
                           try:
                               await USER.join_chat(invitelink)
-                              await USER.send_message(message_.chat.id,"I joined this group for playing music in VC")
+                              await USER.send_message(message_.chat.id,"Saya Bergabung ke Group untuk memutar musik didalam VCG")
                               await lel.edit(
-                                  "<b>helper userbot joined your chat</b>",
+                                  "<b>bantu userbot untuk join group</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -711,8 +711,8 @@ async def jiosaavn(client: Client, message_: Message):
                           except Exception as e:
                               #print(e)
                               await lel.edit(
-                                  f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @auvbuzzbot to your Group and try again</b>",
+                                  f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} User {user.first_name} Asisten musik tidak dapat masuk ke grup! Pastikan Asisten musik tidak dalam blokir grup."
+                                  "\n\nAtau manual tambahkan @auvbuzzbot ke grup & coba kembali</b>",
                               )
                               pass
     try:
@@ -756,7 +756,7 @@ async def jiosaavn(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="⭐ Support ⭐",
-                   url='https://t.me/ossuport3')
+                   url='https://t.me/Kabaridevbot_bot')
              ],
              [       
                InlineKeyboardButton(
