@@ -9,32 +9,32 @@ from config import BOT_NAME as bn
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""**HELLO!, Saya  {bn}, Adalah bot untuk memutar musik dalam obrolan suara group chat anda.\n\n Jangan lupa untuk menambahkan asisten musik juga, agar dapat memutar musiknya.\n\n /help untuk mengetahui perintah**""",
+        f"""**HELLO!**, Saya  **🎼ᴬᵁⱽ⁻ᴮᵁᶻᶻ ᴹᵁˢᴵᶜ 🎼**, Adalah bot untuk memutar musik dalam obrolan suara group chat anda.\n\n🎧 Jangan lupa untuk menambahkan asisten musik juga, agar dapat memutar musiknya. 🎧\n\n|| /help untuk mengetahui perintah ||""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Support⚡️", url="https://t.me/ossuport3"
+                        "Support 🧟", url="https://t.me/Kabaridevbot_bot"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "Creator⚡️", url="https://t.me/psycho_syridwan"
+                        "Creator 👱️", url="https://t.me/psycho_syridwan"
                     ),
                     InlineKeyboardButton(
-                        "Group⚡️", url="https://t.me/ossuport"
+                        "Group 🧟", url="https://t.me/ossuport"
                     )
                     
                 ],
                 [
                     InlineKeyboardButton(
-                        "Tambahkan bot ke Group⚡️", url="http://t.me/auvbuzzbot?startgroup=true"
+                        "Tambahkan bot ke Group 🎧️", url="http://t.me/auvbuzzbot?startgroup=true"
                     )
                     
                 ],
                 [
                     InlineKeyboardButton(
-                        "Tambahkan Asiten⚡️", url="http://t.me/asistenmusik2?startgroup=True"
+                        "Tambahkan Asiten 🎧️", url="http://t.me/asistenmusik2?startgroup=True"
                     )
                 ]
             ]
