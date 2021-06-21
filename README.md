@@ -1,5 +1,5 @@
 # AUV-BUZZ-MUSIC
-[![AUV logo](https://github.com/justteen/AUV-BUZZ-MUSIC/blob/main/Logopit_1622512627915.jpg)](https://t.me/ossuport3)
+[![AUV logo](https://telegra.ph/file/d74e196d579e35ed1976c.jpg)](https://t.me/auvbuzzbot)
 
 
 Ini adalah bot obrolan suara. Untuk memutar lagu disaat OS dimulai
@@ -45,7 +45,7 @@ Copy `example.env` to `.env` and fill it with your credentials.
 
 ### StringSession
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@GalaxyOp/W2HMusicBot#main.py) 
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@justteen/String-Session) 
 
 
 ### Mandatory Vars.
